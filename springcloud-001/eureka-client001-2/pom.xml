@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.suckmydisk</groupId>
-    <artifactId>eureak-client002</artifactId>
+    <artifactId>eureka-client002</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureak-client002</name>
+    <name>eureka-client002</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

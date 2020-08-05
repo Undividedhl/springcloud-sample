@@ -1,4 +1,4 @@
-package com.suckmydisk.eurekaclient001;
+package com.suckmydisk.eurekaclient001_2;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -9,14 +9,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@EnableEurekaClient
 @RestController
-public class EurekaClient001Application {
+@EnableEurekaClient
+public class EurekaClient0012Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaClient001Application.class, args);
+        SpringApplication.run(EurekaClient0012Application.class, args);
     }
-
 
     @Value("${server.port}")
     String port;
@@ -25,5 +24,6 @@ public class EurekaClient001Application {
     public String hello(@RequestParam String name) {
         return "hi," + name + "," + port;
     }
+
 
 }

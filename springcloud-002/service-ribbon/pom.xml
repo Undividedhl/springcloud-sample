@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.suckmydisk</groupId>
-    <artifactId>eureak-client002</artifactId>
+    <artifactId>service-ribbon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureak-client002</name>
+    <name>service-ribbon</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -27,6 +27,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
 
         <dependency>
