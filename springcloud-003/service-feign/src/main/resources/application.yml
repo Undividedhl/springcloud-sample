@@ -1,11 +1,10 @@
 server:
-  port: 8092
+  port: 8081
 
+spring:
+  application:
+    name: service-feign
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8090/eureka
-
-spring:
-  application:
-    name: client-001

@@ -1,10 +1,10 @@
-package com.suckmydisk.eurekaclient001_2;
+package com.suckmydisk.servicefeign;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaClient0012ApplicationTests {
+class ServiceFeignApplicationTests {
 
     @Test
     void contextLoads() {
