@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("client-001")
+@FeignClient(value = "client-001", fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHello {
 
     /**
