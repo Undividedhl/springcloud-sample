@@ -12,7 +12,7 @@ public class HelloController {
     @Resource
     HelloService helloService;
 
-    @RequestMapping("hello")
+    @RequestMapping("/hello")
     public String hello(@RequestParam String name) {
         return helloService.hiService(name);
     }
